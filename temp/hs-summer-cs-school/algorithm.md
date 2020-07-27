@@ -18,7 +18,7 @@
     
 3) Shuffle//
     
-    The shuffle method re-arranges the contents of an array. This shuffle works in place, it modifies the contents of the original array. The algorithm works by creating a new array, temp, that is initially empty. Then we randomly choose an element from the original array and append it to temp, until the original array is empty. Finally, the temporary array is copied back into the original one.
+    The shuffle method re-arranges the contents of an array. The algorithm first creates a new array that is empty. Then it randomly chooses an element from the original array and appends it to the new array until the original array is empty.
 
     Removing an element from an array is an O(n) operation and it is performed n times, which makes the total algorithm O(n^2).
     
