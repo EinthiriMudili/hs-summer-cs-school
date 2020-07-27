@@ -4,7 +4,9 @@
     
     The method looks at one number at a time, and stores it in its "dictionary." It uses the number as the key and the number's index in the array as the value.
 
-    For each number n, the complementing number to sum up to the target is target - n. By looking up the complement in the dictionary, we'd know whether we've seen the complement before and what its index is.
+    For each number n, the complementing number to sum up to the target is target - n. By looking up the complement in the dictionary, the algorithm would recognize whether its seen the complement before.
+    
+    O(n) notation 
 
     E.g - If the array is [-6, 7, 8, 11, -10] and the sum is one, it should return [-6, 7] and [11, -10] 
 
@@ -15,6 +17,8 @@
     The "k" in k-Means is a number. The algorithm assumes that there are k centers within the data that the various data elements are scattered around. The data that is closest to these center points become grouped together. But, the k-means method doesn't signify the title/classification of the different groups. 
     
     The term "k-means" was first used by James MacQueen in 1967 but the standard algorithm was first proposed by Stuart Lloyd of Bell Labs in 1957 as a technique for pulse-code modulation. In 1965, Edward W. Forgy published essentially the same method, which is why it is sometimes referred to as Lloyd-Forgy.
+    
+    Big O notation: O(ndk) 
     
 3) Shuffle//
     
