@@ -13,7 +13,7 @@
 2) K-means clustering//
 
     The k-means clustering method takes a bunch of data and determines if there are clusters/groups of related objects within the data. 
-    For example, you can use k-Means to find what are the 3 most prominent colors in an image by telling it to group pixels into 3 clusters based on their color value.hout deciding beforehand what categories to use. 
+    For example, you can use k-Means to find what are the 3 most prominent colors in an image by telling it to group pixels into 3 clusters based on their color. 
     The "k" in k-Means is a number. The algorithm assumes that there are k centers within the data that the various data elements are scattered around. The data that is closest to these center points become grouped together. But, the k-means method doesn't signify the title/classification of the different groups. 
     
     The term "k-means" was first used by James MacQueen in 1967 but the standard algorithm was first proposed by Stuart Lloyd of Bell Labs in 1957 as a technique for pulse-code modulation. In 1965, Edward W. Forgy published essentially the same method, which is why it is sometimes referred to as Lloyd-Forgy.
