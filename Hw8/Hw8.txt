@@ -1,0 +1,16 @@
+Idea of a promise: 
+
+- You commit to doing something and that promise is either resolved/completed or rejected 
+
+
+The Promise.resolve() method returns a Promise object that is resolved with a given value.
+
+
+.then is called when the resolve is successful 
+. catch is called when the resolve is rejected 
+
+
+
+Promise.all runs an array of all of the promises in parallel (at the same time) instead of waiting for each one to finish
+
+Promise.race is like Promise.all except it returns as soon as the first one is completed instead of waiting for all of them to finish. (Therefore, in the .then it will return a single "message" as opposed to all of the messages. 
