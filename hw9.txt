@@ -1,0 +1,15 @@
+Get Animals//
+
+SELECT animalID, animalName, animalAge
+FROM Animal 
+WHERE animalID = 10
+
+Update Name// 
+
+UPDATE Animals
+SET animalName "Lion" 
+WHERE animalID = 20
+
+Delete// 
+
+DELETE FROM Animals WHERE animalID = 30
