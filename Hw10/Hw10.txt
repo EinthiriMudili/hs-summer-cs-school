@@ -1,0 +1,42 @@
+Real World Example// 
+
+One-to-One Relationship: One family lives in one house and the house contains one family
+
+One-to-Many Relationship: One student with a teacher and that teacher has many students.
+
+Many-to-Many Relationship: A student takes many classes and each class is studied by many students 
+
+ORM//
+
+ORM (Object-Relationship-mapping) is the idea of interacting with the database using your language of choice instead of SQL. 
+
+Benefits: 1) You can write in a language that you already know 2) It is easy to switch between SQL and the language you prefer 3)Speeds-up Development 4)Reduces Development Time 5)Reduces Development Costs 
+
+Entity Framework: Entity Framework is an open-source ORM framework for .NET applications supported by Microsoft. It allows developers to work with data using objects of specific classes without focusing on the table and columns where the data is stored. 
+
+Hibernate: The main function of Hibernate ORM is to map Java classes into database tables and Java data into SQL data types. Hibernate ORM also helps your application achieve persistence which means that your applications data outlives the applications process. 
+
+Sequelize.js: Sequelize.js is an ORM that provides easy access to MySQL, MariaDB, SQLite, or PostgreSQL databases by mapping database entries to objects. 
+
+Joins// 
+
+Inner Join: Inner Join returns records that have matching values in both tables. 
+
+Outer Join: In a full outer join, all rows from both of the tables are included and if there are any unmatched rows, it shows NULL values for them. 
+
+Left Join: Returns all records from the left table, and the matched records from the right table 
+
+Right Json: Returns all records from the right table, and the matched records from the left table. 
+
+MySQL vs. Postgres// 
+
+Postgres is an Object-relational database while mySQL is a purely relational database.MySQL has been famous for its ease of use and speed while PostgreSQL has many more advanced features. 
+
+Postgres is a database full of features that can handle complex queries and massive databases while MySQL is a simpler database that's easy to manage, it is fast, reliable, and well-understood. 
+
+Who Uses SQL: GitHub, NASA, Tesla, Netflix, Facebook, Youtube, Spotify 
+
+Who Uses PostgreSQL: Apple, BioPharm, Skype, Cisco 
+
+
+
