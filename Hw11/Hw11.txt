@@ -1,0 +1,33 @@
+React 
+
+React is a JS library that is used for building single-page user interfaces. It is also used for handling the images/design of your web or mobile apps. React allows developers to create large web applications that can adapt to data changes over time without reloading the page. The main goal is to be fast, simple and scalable. I really enjoyed creating the resume and weather apps on react and through it I also learned more about the git commands needed to create and start the app (create-react-app, npm run start). In addition to writing the code for the app, we also incorporated the element of images/design through bootstrap which was something I enjoyed. I got to experiment with different colors, text size, text layout, images, etc. React is already implemented in a lot of giant companies such as Facebook, Instagram, Netflix, NY Times, Yahoo Mail, WhatsApp, etc. (majority of these companies are owned by Facebook). 
+
+Python 
+
+Python is a general-purpose programming language that is used in web development, science, games, software development, etc. Throughout the course, I enjoyed learning about how to translate a math problem into written code in python. I learned that the first step to approaching any math/numeric problem in python is understanding the problem and coming up with the pseudo code (a high-level explanation of how the program will work - without coding anything). Some of my favorite implementations to learn about were the Haversine Distance Method, Sieve of Sundaram/Eratosthenes, Bubble Sort, Fibonacci Sequence, and the Insertion sort. 
+
+
+SQL
+
+SQL or Structured Query Language, is a programming language that enables programmers to communicate with databases in order to manage the data that they contain. Data is a core part of many web applications and mobile apps – for example, an application like Facebook holds a user’s profile information and data about their friends/posts. In the course we used some of the essential commands in the animal database such as: Create Table, Select, Update, Delete, Join, etc. Some real-life implementations of SQL are: 
+-	Banking applications and payment processors store and operate data about financial transactions and users 
+-	Music Applications like Spotify use databases to store libraries of music files and albums by various artists 
+-	Social Media Platforms such as Instagram and Snapchat use SQL to store a user’s profile information such as bio and location 
+
+
+
+
+GIT
+
+Git is a open-source system used for tracking changes in code during development.
+It allows you to commit new changes, branch, merge, and compare past versions of your code. Git is extremely useful in shared work. It allows programmers to contribute to different applications, and allows you to push those changes into GitHub. I really enjoyed learning about the basic git commands (git commit -m, git push, git pull, etc.) and pushing changes into my GitHub without having to copy paste my code every time I made a change. 
+
+Command Lines
+
+The command line for your computer takes in commands and passes it on to the computer’s operating system to run. From the command line, you can move, delete or add files on your computer – it also simplifies and speeds up tasks that might’ve been tedious beforehand. Command lines are also applied in the user interface. It allows the user to respond to visual prompts on their computer screen by typing commands into the interface and receiving a reply. 
+
+Garbage Collection
+
+1)	In C/C++, programmers are responsible for both creating and removing objects. Sometimes, programmers will neglect destroying useless objects which will eventually lead to there not being enough space for the creation of new objects (out of memory errors). In C, developers need to manually allocate and deallocate memory using the malloc(), calloc(), alloc(), and free() methods. 
+2)	 Java garbage Collection allows developers to create new objects without worrying about memory space. Java Garbage Collection works by tracking live objects and designating everything else as garbage. To determine which object are no longer being used, the JVM runs a mark-and-sweep algorithm. The algorithm traverses all objects starting with the roots and marks every object that is “live.” And all of the memory that is not occupied by marked objects is marked as free. 
+3)	In JavaScript when declaring a variable, JS will automatically allocate the memory for the variable. When the memory is no longer needed anymore, it will be released. The process of finding variables that are no longer in use is called garbage collecting. One of the most important garbage collecting algorithms is reference-counting. In reference counting, if there are no references to an object, it will automatically be garbage collected. The second algorithm is the mark-and-sweep algorithm which is mentioned above. 
